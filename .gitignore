@@ -1,0 +1,58 @@
+<<<<<<< HEAD
+.idea/*
+*.py[cod]
+__pycache__
+
+config/configuration.py
+log/*
+*.log
+media/script_file/*
+media/*
+#test*
+doc/test*
+#myauth/*
+script/self/*
+
+*.pyc
+
+script/jenkins_commit.py
+cmdb_plus.conf
+venv*
+/static/files/excels/*.xls*
+=======
+target/
+!.mvn/wrapper/maven-wrapper.jar
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+### NetBeans ###
+nbproject/private/
+build/
+nbbuild/
+dist/
+nbdist/
+.nb-gradle/
+/disconf/
+/disconfs/
+/log/
+/logs/
+/.logs/
+
+# maven backup files
+*.xml.versionsBackup
+
+### log files ###
+*.log
+>>>>>>> f593b2eb1c5a45fb8497f1b05a76c1600801067e
